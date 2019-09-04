@@ -74,19 +74,17 @@ left:auto;
 
 .function-images {
   position: relative;
-  left:260px;
-  display: table;
-
+  display: inline-flex;
+  justify-content:flex center;
 }
 
 .function-image {
   padding: 50px;
-  display: table-cell;
 }
 
 .function h1 {
   position:relative;
-  top:40px
+  top:40px;
 }
 /* ここまでがfunction部分の実装 */
 
